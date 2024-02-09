@@ -1,3 +1,7 @@
 .main{
     min-height: calc(100vh - 112px);
 }
+.login-form{
+    max-width: 500px;
+    margin: auto;
+}
