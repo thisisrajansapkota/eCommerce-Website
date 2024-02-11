@@ -14,6 +14,8 @@ import Order from "./pages/order/Order";
 import PaymentOption from "./pages/payment-option/PaymentOption";
 import Profile from "./pages/profile/Profile";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 function App() {
@@ -39,6 +41,7 @@ function App() {
         {/* <Route path="*" element={<h1>404 Not Found!</h1>}></Route> */}
         <Route path="*" element={<Login />}></Route>
       </Routes>
+      <ToastContainer />
     </div>
   );
  
