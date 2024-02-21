@@ -1,9 +1,12 @@
 import React from 'react'
+import AdminLayout from '../../components/layout/AdminLayout';
 
 function Order() {
   return (
-    <div>Order</div>
-  )
+    <>
+      <AdminLayout title="Orders"></AdminLayout>
+    </>
+  );
 }
 
 export default Order

@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Users",
+    "value":25
+  },
+  {
+    "label": "Products",
+    "value": 80
+  },
+    {
+      "label": "Sales",
+      "value": 50
+    }
+]

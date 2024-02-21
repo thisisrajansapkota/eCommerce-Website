@@ -1,9 +1,12 @@
 import React from 'react'
+import AdminLayout from '../../components/layout/AdminLayout';
 
 function PaymentOption() {
   return (
-    <div>PaymentOption</div>
-  )
+    <>
+      <AdminLayout title="Payment options"></AdminLayout>
+    </>
+  );
 }
 
 export default PaymentOption

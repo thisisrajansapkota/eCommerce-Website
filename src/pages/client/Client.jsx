@@ -1,8 +1,13 @@
 import React from 'react'
+import AdminLayout from '../../components/layout/AdminLayout'
 
 function Client() {
   return (
-    <div>Client</div>
+     <>
+      <AdminLayout title="Client">
+        
+      </AdminLayout>
+    </>  
   )
 }
 

@@ -6,6 +6,7 @@ import BaseLayout from "../../components/layout/BaseLayout";
 import { createAdminAction } from "../../redux/auth/userAction";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import AdminLayout from "../../components/layout/AdminLayout";
 
 function Register() {
   const inputFields = [
@@ -94,13 +95,13 @@ function Register() {
   };
 
   return (
-    <BaseLayout title={"Register"}>
+    <AdminLayout title="Register">
       <div>
         <Form
           onSubmit={handleOnSubmit}
           className="login-form mt-3 mb-3 border p-4 rounded shadow-lg"
         >
-          {inputFields.map(field => {
+          {inputFields.map((field) => {
             return (
               <CustomInput
                 key={field.label}
@@ -118,8 +119,8 @@ function Register() {
           </Button>
         </Form>
       </div>
-    </BaseLayout>
-  )
+    </AdminLayout>
+  );
 }
 
 export default Register;
