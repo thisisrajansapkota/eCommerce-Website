@@ -56,6 +56,8 @@ function Register() {
 
   //calling dispatch
   const dispatch = useDispatch();
+  //To navigate page to login page when registration is successful.
+  const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
     role: "admin"
@@ -83,7 +85,8 @@ function Register() {
     }
     //Now, Integrate to FIREBASE SERVICES:
     //AUTH & DB (in a separate file for ease.)
-    dispatch(createAdminAction(formData));
+    dispatch(createAdminAction(formData, navigate));
+
 
 // passing formData to createAdminAction.
 //What does dispatch do in Redux?
@@ -123,4 +126,3 @@ export default Register;
 
 
 //time stamp: 45:52 (second vid)
-// github ukiras see project: fix api key error message
