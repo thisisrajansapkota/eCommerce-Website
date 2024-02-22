@@ -1,15 +1,31 @@
-.main{
-    min-height: calc(100vh - 112px);
+.main {
+  min-height: calc(100vh - 112px);
 }
-.login-form{
-    max-width: 500px;
-    margin: auto;
+.login-form {
+  max-width: 500px;
+  margin: auto;
 }
 
-.dataCard{
-align-self: center;
-margin-left: 50px;
- 
-    height: 500px;
-    width: 500px;
+.dataCard {
+  align-self: center;
+  margin-left: 50px;
+  height: 500px;
+  width: 500px;
+}
+
+.side-links li:hover, .active {
+  background-color: rgb(62, 176, 234);
+  color: rgb(13, 83, 42);
+  border-radius: 10px;
+  border-radius: 10px;
+
+}
+.nav-link{
+width: 125px;
+}
+.nav-link:hover{
+   background-color: rgb(62, 176, 234);
+  color: rgb(13, 83, 42);
+  border-radius: 10px;
+  border-radius: 10px;   
 }
